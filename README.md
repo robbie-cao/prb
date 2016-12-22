@@ -2,6 +2,19 @@
 
 Persistent Ring Buffer
 
+## Objective
+
+- Fixed-size (selectable at run-time when creating it, not compile-time) circular buffer
+- Can hold objects of any type
+- Multi-tasking embedded environment
+- Persistence
+- Operations:
+  * put at the tail
+  * get from the head
+  * return the count
+  * delete a buffer
+
+
 ## Reference
 
 - https://en.wikipedia.org/wiki/Circular_buffer
